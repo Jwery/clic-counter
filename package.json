@@ -2,6 +2,7 @@
   "name": "template-react-16",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jwery.github.io/clic-counter/",
   "dependencies": {
     "connected-react-router": "^6.6.1",
     "history": "^4.10.1",
@@ -60,7 +61,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
