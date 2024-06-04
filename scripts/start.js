@@ -8,7 +8,7 @@ process.env.NODE_ENV = 'development';
 // https://github.com/motdotla/dotenv
 require('dotenv').config({silent: true});
 
-import chalk from 'chalk';
+var chalk = require('chalk');
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var historyApiFallback = require('connect-history-api-fallback');
