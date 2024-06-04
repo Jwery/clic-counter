@@ -34,16 +34,16 @@ function Counter() {
       <div className='buttons'>
 
       {/* mettre le parametre (decrement) sur le onClick du premier boutton */}
-      <button className="btn_dwn" onClick={decrement}>
+      <button alt="down" className="btn_dwn" onClick={decrement}>
         -
       </button>
 
 
       {/* mettre le parametre (increment) sur le onClick du deuxième boutton */}
-      <button className="btn_up" onClick={increment}>
+      <button alt="up" className="btn_up" onClick={increment}>
         +
       </button>
-      <button className="btn_rst" onClick={reset}>
+      <button alt="reset" className="btn_rst" onClick={reset}>
         Reset
       </button>
       </div>
