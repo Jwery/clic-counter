@@ -6,7 +6,7 @@ function Home() {
   
   return (
 
-    <div>
+    <div className='bkg' >
       {/* appel du composant counter à la place de la logique de compteur */}
      <Counter />
 

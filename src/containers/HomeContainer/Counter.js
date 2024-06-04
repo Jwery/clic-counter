@@ -22,7 +22,7 @@ function Counter() {
   };
 
   return (
-    <div>
+    <div className="card">
       {/* afficher la variable (value) */}
       <h2>{value}</h2>
 
