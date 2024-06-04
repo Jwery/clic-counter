@@ -2,7 +2,7 @@
   "name": "template-react-16",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jwery.github.io/react-clic-counter.git",
+  "homepage": "https://jwery.github.io/clic-counter",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
     "connected-react-router": "^6.6.1",
