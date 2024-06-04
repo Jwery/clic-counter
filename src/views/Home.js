@@ -7,8 +7,13 @@ function Home() {
   return (
 
     <div className='bkg' >
+      <h1  class="title">Compteur de clics</h1>
       {/* appel du composant counter à la place de la logique de compteur */}
      <Counter />
+     <div className='signature'>
+
+     <p>By Joachim</p>
+     </div>
 
     </div>
   );

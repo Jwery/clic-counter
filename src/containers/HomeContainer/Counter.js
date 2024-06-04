@@ -20,22 +20,33 @@ function Counter() {
       setValue(0);
     }
   };
+  const reset = () => {
+    if (value > 0){
+      setValue(0);
+    }
+  };
 
   return (
     <div className="card">
       {/* afficher la variable (value) */}
-      <h2>{value}</h2>
+      <h2 className="value">{value}</h2>
+
+      <div className='buttons'>
 
       {/* mettre le parametre (decrement) sur le onClick du premier boutton */}
-      <button onClick={decrement}>
+      <button className="btn_dwn" onClick={decrement}>
         -
       </button>
 
 
       {/* mettre le parametre (increment) sur le onClick du deuxième boutton */}
-      <button onClick={increment}>
+      <button className="btn_up" onClick={increment}>
         +
       </button>
+      <button className="btn_rst" onClick={reset}>
+        Reset
+      </button>
+      </div>
     </div>
   );
 }
