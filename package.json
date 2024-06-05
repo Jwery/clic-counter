@@ -1,7 +1,7 @@
 {
   "name": "template-react-16",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://jwery.github.io/clic-counter/",
   "dependencies": {
     "connected-react-router": "^6.6.1",
