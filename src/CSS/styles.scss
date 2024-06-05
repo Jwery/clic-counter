@@ -1,26 +1,31 @@
+$base-color: #22272E;
+$card-color: #2D333D;
+$font-color: #C5D1DE;
+
+$font: "Noto Sans", sans-serif;
+
 body{
     box-sizing: border-box;
     padding: 1vw;
-    background-color: #22272E;
+    background-color: $base-color;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2D333D;
+    background-color: $card-color;
     border-radius: 20px;
     padding: 50px;
-    height: 70vh;
 }
 .value{
-    font-family: "Noto Sans", sans-serif;
+    font-family: $font;
     font-size: 30vh;
     margin: auto;
-    color: #C5D1DE;
+    color: $font-color;
 }
 .title {
-    font-family: "Noto Sans", sans-serif;
-    color: #C5D1DE;
+    font-family: $font;
+    color: $font-color;
 }
 
 /* boutons */
@@ -29,11 +34,11 @@ body{
     width:100px;
     height:100px;
     margin: 3px;
-    background-color: #22272E;
-    color:#C5D1DE;
+    background-color: $base-color;
+    color:$font-color;
     border: none;
     border-radius: 10px;
-    font-family: "Noto Sans", sans-serif;
+    font-family: $font;
     font-size: 2rem;
     cursor:pointer;
     @media screen and (max-width: 600px) {
@@ -47,11 +52,11 @@ body{
     width:100px;
     height:100px;
     margin: 3px;
-    background-color: #22272E;
-    color:#C5D1DE;
+    background-color: $base-color;
+    color:$font-color;
     border: none;
     border-radius: 10px;
-    font-family: "Noto Sans", sans-serif;
+    font-family: $font;
     font-size: 2rem;
     cursor:pointer;
     @media screen and (max-width: 600px) {
@@ -64,11 +69,11 @@ body{
     width:100px;
     height:100px;
     margin: 3px;
-    background-color: #22272E;
-    color:#C5D1DE;
+    background-color: $base-color;
+    color: $font-color;
     border: none;
     border-radius: 10px;
-    font-family: "Noto Sans", sans-serif;
+    font-family: $font;
     font-size: 1.2rem;
     cursor:pointer;
     @media screen and (max-width: 600px) {
@@ -86,7 +91,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: "Noto Sans", sans-serif;
-    color:#C5D1DE;
+    font-family: $font;
+    color:$font-color;
     text-align: center;
 }
