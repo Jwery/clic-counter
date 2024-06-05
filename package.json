@@ -5,6 +5,7 @@
   "homepage": "https://jwery.github.io/clic-counter/",
   "dependencies": {
     "connected-react-router": "^6.6.1",
+    "gh-pages": "^6.1.1",
     "history": "^4.10.1",
     "invariant": "^2.2.4",
     "lodash": "^4.17.15",
